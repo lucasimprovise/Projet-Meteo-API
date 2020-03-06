@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/script.js" async></script>
+  </head>
+  <header>
+    <nav class="ui big menu">
+      <h1 class="header item">
+        <i class="cloud icon"></i>
+      </h1>
+      <a class="item">Acceuil</a>
+      <a class="item">News</a>
+      <a class="item">Catégorie</a>
+      <a class="item">Contact</a>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <br />
+      <div class="ui container">
+        <div class="ui input focus">
+          <input type="text" placeholder="Ville..." class="data-ville" />
+        </div>
+        <select name="nom" size="1" class="data-pays">
+          <option>France</option>
+          <option>Royaume Unis</option>
+          <option>Etats Unis</option>
+        </select>
+
+        <button class="ui primary button data-button">
+          Rechercher
+        </button>
+        <a href="index.html">
+          <button class="ui button">
+            Annuler
+          </button>
+        </a>
+      </div>
+
+      <div class="container">
+        <p class="data-p">Ville :</p>
+        <p class="data-p">Météo :</p>
+        <p class="data-p">Description Météo :</p>
+        <p class="data-p">Température :</p>
+        <p class="data-p">Vitesse du vent :</p>
+      </div>
+    </main>
+  </body>
+  <footer></footer>
+</html>
